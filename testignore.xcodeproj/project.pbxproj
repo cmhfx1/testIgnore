@@ -18,6 +18,7 @@
 		E7215914225DEE7C00B160C3 /* ddddd.m in Sources */ = {isa = PBXBuildFile; fileRef = E7215913225DEE7C00B160C3 /* ddddd.m */; };
 		E7215917225DF00C00B160C3 /* dddddddddddd.m in Sources */ = {isa = PBXBuildFile; fileRef = E7215916225DF00C00B160C3 /* dddddddddddd.m */; };
 		E721591F225DFA3C00B160C3 /* per.m in Sources */ = {isa = PBXBuildFile; fileRef = E721591E225DFA3C00B160C3 /* per.m */; };
+		E7215927225DFBC500B160C3 /* per1.m in Sources */ = {isa = PBXBuildFile; fileRef = E7215925225DFBC500B160C3 /* per1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		E7215916225DF00C00B160C3 /* dddddddddddd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dddddddddddd.m; sourceTree = "<group>"; };
 		E721591D225DFA3C00B160C3 /* per.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per.h; sourceTree = "<group>"; };
 		E721591E225DFA3C00B160C3 /* per.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = per.m; sourceTree = "<group>"; };
+		E7215925225DFBC500B160C3 /* per1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = per1.m; sourceTree = "<group>"; };
+		E7215926225DFBC500B160C3 /* per1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per1.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +154,19 @@
 			children = (
 				E721591D225DFA3C00B160C3 /* per.h */,
 				E721591E225DFA3C00B160C3 /* per.m */,
+				E7215924225DFBC500B160C3 /* build */,
 			);
 			path = build1;
+			sourceTree = SOURCE_ROOT;
+		};
+		E7215924225DFBC500B160C3 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				E7215925225DFBC500B160C3 /* per1.m */,
+				E7215926225DFBC500B160C3 /* per1.h */,
+			);
+			name = build;
+			path = testignore/build;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -287,6 +301,7 @@
 			files = (
 				E72158E5225DC5C700B160C3 /* ViewController.m in Sources */,
 				E72158F0225DC5CA00B160C3 /* main.m in Sources */,
+				E7215927225DFBC500B160C3 /* per1.m in Sources */,
 				E7215914225DEE7C00B160C3 /* ddddd.m in Sources */,
 				E721591F225DFA3C00B160C3 /* per.m in Sources */,
 				E7215917225DF00C00B160C3 /* dddddddddddd.m in Sources */,
