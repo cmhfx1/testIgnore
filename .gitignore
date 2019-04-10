@@ -6,6 +6,7 @@
 DerivedData/
 build/person.h
 build2/person1.h
+/TO
 
 ## Various settings
 *.pbxuser
