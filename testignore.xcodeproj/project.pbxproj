@@ -19,6 +19,8 @@
 		E7215917225DF00C00B160C3 /* dddddddddddd.m in Sources */ = {isa = PBXBuildFile; fileRef = E7215916225DF00C00B160C3 /* dddddddddddd.m */; };
 		E721591F225DFA3C00B160C3 /* per.m in Sources */ = {isa = PBXBuildFile; fileRef = E721591E225DFA3C00B160C3 /* per.m */; };
 		E7215927225DFBC500B160C3 /* per1.m in Sources */ = {isa = PBXBuildFile; fileRef = E7215925225DFBC500B160C3 /* per1.m */; };
+		E721592E225E01F300B160C3 /* person1.m in Sources */ = {isa = PBXBuildFile; fileRef = E721592C225E01F300B160C3 /* person1.m */; };
+		E721592F225E01F300B160C3 /* person1.m in Sources */ = {isa = PBXBuildFile; fileRef = E721592D225E01F300B160C3 /* person1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		E721591E225DFA3C00B160C3 /* per.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = per.m; sourceTree = "<group>"; };
 		E7215925225DFBC500B160C3 /* per1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = per1.m; sourceTree = "<group>"; };
 		E7215926225DFBC500B160C3 /* per1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per1.h; sourceTree = "<group>"; };
+		E7215929225E01F300B160C3 /* person1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person1.h; sourceTree = "<group>"; };
+		E721592B225E01F300B160C3 /* person1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person1.h; sourceTree = "<group>"; };
+		E721592C225E01F300B160C3 /* person1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person1.m; sourceTree = "<group>"; };
+		E721592D225E01F300B160C3 /* person1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,7 @@
 				E721591C225DFA3C00B160C3 /* build1 */,
 				E72158E0225DC5C700B160C3 /* AppDelegate.h */,
 				E72158E1225DC5C700B160C3 /* AppDelegate.m */,
+				E7215928225E01F300B160C3 /* build */,
 				E72158E3225DC5C700B160C3 /* ViewController.h */,
 				E72158E4225DC5C700B160C3 /* ViewController.m */,
 				E7215912225DEE7C00B160C3 /* ddddd.h */,
@@ -168,6 +175,25 @@
 			name = build;
 			path = testignore/build;
 			sourceTree = SOURCE_ROOT;
+		};
+		E7215928225E01F300B160C3 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				E7215929225E01F300B160C3 /* person1.h */,
+				E721592A225E01F300B160C3 /* build */,
+				E721592D225E01F300B160C3 /* person1.m */,
+			);
+			path = build;
+			sourceTree = SOURCE_ROOT;
+		};
+		E721592A225E01F300B160C3 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				E721592B225E01F300B160C3 /* person1.h */,
+				E721592C225E01F300B160C3 /* person1.m */,
+			);
+			path = build;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -303,6 +329,8 @@
 				E72158F0225DC5CA00B160C3 /* main.m in Sources */,
 				E7215927225DFBC500B160C3 /* per1.m in Sources */,
 				E7215914225DEE7C00B160C3 /* ddddd.m in Sources */,
+				E721592E225E01F300B160C3 /* person1.m in Sources */,
+				E721592F225E01F300B160C3 /* person1.m in Sources */,
 				E721591F225DFA3C00B160C3 /* per.m in Sources */,
 				E7215917225DF00C00B160C3 /* dddddddddddd.m in Sources */,
 				E72158E2225DC5C700B160C3 /* AppDelegate.m in Sources */,
