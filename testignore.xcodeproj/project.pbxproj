@@ -16,6 +16,8 @@
 		E72158FA225DC5CA00B160C3 /* testignoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E72158F9225DC5CA00B160C3 /* testignoreTests.m */; };
 		E7215905225DC5CA00B160C3 /* testignoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7215904225DC5CA00B160C3 /* testignoreUITests.m */; };
 		E7215914225DEE7C00B160C3 /* ddddd.m in Sources */ = {isa = PBXBuildFile; fileRef = E7215913225DEE7C00B160C3 /* ddddd.m */; };
+		E7215917225DF00C00B160C3 /* dddddddddddd.m in Sources */ = {isa = PBXBuildFile; fileRef = E7215916225DF00C00B160C3 /* dddddddddddd.m */; };
+		E721591F225DFA3C00B160C3 /* per.m in Sources */ = {isa = PBXBuildFile; fileRef = E721591E225DFA3C00B160C3 /* per.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		E7215906225DC5CA00B160C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7215912225DEE7C00B160C3 /* ddddd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ddddd.h; sourceTree = "<group>"; };
 		E7215913225DEE7C00B160C3 /* ddddd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ddddd.m; sourceTree = "<group>"; };
+		E7215915225DF00C00B160C3 /* dddddddddddd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dddddddddddd.h; sourceTree = "<group>"; };
+		E7215916225DF00C00B160C3 /* dddddddddddd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dddddddddddd.m; sourceTree = "<group>"; };
+		E721591D225DFA3C00B160C3 /* per.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per.h; sourceTree = "<group>"; };
+		E721591E225DFA3C00B160C3 /* per.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = per.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +110,15 @@
 		E72158DF225DC5C700B160C3 /* testignore */ = {
 			isa = PBXGroup;
 			children = (
+				E721591C225DFA3C00B160C3 /* build1 */,
 				E72158E0225DC5C700B160C3 /* AppDelegate.h */,
 				E72158E1225DC5C700B160C3 /* AppDelegate.m */,
 				E72158E3225DC5C700B160C3 /* ViewController.h */,
 				E72158E4225DC5C700B160C3 /* ViewController.m */,
 				E7215912225DEE7C00B160C3 /* ddddd.h */,
 				E7215913225DEE7C00B160C3 /* ddddd.m */,
+				E7215915225DF00C00B160C3 /* dddddddddddd.h */,
+				E7215916225DF00C00B160C3 /* dddddddddddd.m */,
 				E72158E6225DC5C700B160C3 /* Main.storyboard */,
 				E72158E9225DC5CA00B160C3 /* Assets.xcassets */,
 				E72158EB225DC5CA00B160C3 /* LaunchScreen.storyboard */,
@@ -136,6 +145,15 @@
 			);
 			path = testignoreUITests;
 			sourceTree = "<group>";
+		};
+		E721591C225DFA3C00B160C3 /* build1 */ = {
+			isa = PBXGroup;
+			children = (
+				E721591D225DFA3C00B160C3 /* per.h */,
+				E721591E225DFA3C00B160C3 /* per.m */,
+			);
+			path = build1;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -270,6 +288,8 @@
 				E72158E5225DC5C700B160C3 /* ViewController.m in Sources */,
 				E72158F0225DC5CA00B160C3 /* main.m in Sources */,
 				E7215914225DEE7C00B160C3 /* ddddd.m in Sources */,
+				E721591F225DFA3C00B160C3 /* per.m in Sources */,
+				E7215917225DF00C00B160C3 /* dddddddddddd.m in Sources */,
 				E72158E2225DC5C700B160C3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
